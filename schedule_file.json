@@ -1,0 +1,48 @@
+{
+    "Sunday": [
+        {
+
+        }
+    ],
+    "Monday": [
+        {
+            "name": "數學邏輯思維",
+            "describe": "R2603",
+            "remind time": "09:30",
+            "start time": "10:10",
+            "end time": "12:00"
+        },
+        {
+            "name": "演算法概論",
+            "describe": "R1401B, 帶平板",
+            "remind time": "22:00",
+            "start time": "22:10",
+            "end time": "23:00"
+        }
+    ],
+    "Tuesday": [
+        {
+
+        }
+    ],
+    "Wednesday": [
+        {
+            
+        }
+    ],
+    "Thursday": [
+        {
+
+        }
+    ],
+    "Friday": [
+        {
+
+        }
+    ],
+    "Saturaday":[
+        {
+
+        }
+    ]
+}
