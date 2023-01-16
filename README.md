@@ -8,10 +8,10 @@
 1. 需先在手機上下載 [Scriptable](https://scriptable.app/)
 2. 在 Scriptable 中點擊右上角 + 號新增一份新文件，並複製貼上 `Schedule.js` 中的程式碼
 3. 建立 json 檔，這裡提供兩種方法
-  1. 使用電腦與 iCloud 建立
+  - 使用電腦與 iCloud 建立
     1. 在電腦中下載 `schedule_file.json`，或是自己建立一個 json 檔，並複製 `schedule.json` 中的程式碼
     2. 填寫要修改的內容後放至自己的 iCloud > Scriptable 資料夾中
-  2. 使用 iPhone 建立
+  - 使用 iPhone 建立
     1. 下載可供編輯 json 檔案的程式
     2. 複製 `schedule.json` 中的程式碼，並將檔案放至 iCloud > Scriptable 資料夾中
     3. 填寫所需內容
