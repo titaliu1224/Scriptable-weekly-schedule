@@ -56,7 +56,6 @@
 6. 點擊小工具欄，在加入小工具中找到 Scriptable ，加入中型（長方形）小工具
 7. 點擊該小工具，選擇 `Schedule` 的 Scriptable
 8. 在 Parameter 中輸入剛剛 json 的檔名
-![設定範例](screenshot1.PNG)
-<img src="screenshot1.PNG" width="200">
+<img alt="setting example" src="screenshot1.jpg" width="500">
 9. 小工具將正常顯示
 
