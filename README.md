@@ -65,5 +65,5 @@
 
 可以透過更改程式中的變數來決定是否要顯示活動註解與時間，進入 Schedule.js 後在上方尋找以下兩個變數：
 - `showDescription` : 設為 `true` 會顯示 json 中 `describe` 的內容，預設為 `true`
-- `showEventTime` : 設為 `true` 會顯示 json 中 `start time` ~ `end time` 的內容
+- `showEventTime` : 設為 `true` 會顯示 json 中 `start time` ~ `end time` 的內容，預設為 `true`
 
