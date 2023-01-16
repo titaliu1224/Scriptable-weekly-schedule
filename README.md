@@ -1,7 +1,9 @@
 # Scriptable Weekly Schedule
 
 在鎖定畫面顯示每週固定的行程（如課表、週會等）
-![screenshot](screenshot.jpg)
+<p align="center" >
+    <img alt="widget screenshot" src ="screenshot.jpg" width = "75%">
+</p>
 
 ## Setting Up
 
