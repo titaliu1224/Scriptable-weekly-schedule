@@ -54,12 +54,10 @@
         ]
       }
       ```
-5. 在手機上進入自訂鎖定畫面
-6. 點擊小工具欄，在加入小工具中找到 Scriptable ，加入中型（長方形）小工具
-7. 點擊該小工具，選擇 `Schedule` 的 Script 並在 Parameter 中輸入剛剛 json 的檔名
+5. 在手機上進入自訂鎖定畫面，點擊小工具欄，在加入小工具中找到 Scriptable ，加入中型（長方形）小工具
+6. 點擊該小工具，選擇 `Schedule` 的 Script 並在 Parameter 中輸入剛剛 json 的檔名
 <img alt="setting example" src="screenshot1.jpg" width="500">
-8. 小工具將正常顯示
-9. 如需顯示兩個不同行程之小工具，依照上面的步驟建立另一個 json 檔即可
+7. 小工具將正常顯示，如需顯示兩個不同行程之小工具，依照上面的步驟建立另一個 json 檔即可
 
 ## Customization
 
