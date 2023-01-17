@@ -63,7 +63,7 @@
 
 ## Customization
 
-可以設定預設 json 檔的檔名，進入 Schedule.js 後在上方尋找以下變數：
+可以設定預設 json 檔的檔名，進入 Schedule.js 後在上方尋找以下變數： 
 - `scheduleFile` : 預設 json 檔名，若小工具沒有傳入正確參數，將採用此變數的值作為讀取的 json 檔
 
 也可以透過更改程式中的變數來決定是否要顯示活動註解與時間，進入 Schedule.js 後在上方尋找以下兩個變數：
