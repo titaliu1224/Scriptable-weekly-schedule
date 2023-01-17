@@ -59,10 +59,14 @@
 7. 點擊該小工具，選擇 `Schedule` 的 Script 並在 Parameter 中輸入剛剛 json 的檔名
 <img alt="setting example" src="screenshot1.jpg" width="500">
 8. 小工具將正常顯示
+9. 如需顯示兩個不同行程之小工具，依照上面的步驟建立另一個 json 檔即可
 
 ## Customization
 
-可以透過更改程式中的變數來決定是否要顯示活動註解與時間，進入 Schedule.js 後在上方尋找以下兩個變數：
+可以設定預設 json 檔的檔名，進入 Schedule.js 後在上方尋找以下變數：
+- `scheduleFile` : 預設 json 檔名，若小工具沒有傳入正確參數，將採用此變數的值作為讀取的 json 檔
+
+也可以透過更改程式中的變數來決定是否要顯示活動註解與時間，進入 Schedule.js 後在上方尋找以下兩個變數：
 - `showDescription` : 設為 `true` 會顯示 json 中 `describe` 的內容，預設為 `true`
 - `showEventTime` : 設為 `true` 會顯示 json 中 `start time` ~ `end time` 的內容，預設為 `true`
 
