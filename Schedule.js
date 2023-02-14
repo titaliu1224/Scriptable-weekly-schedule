@@ -1,9 +1,6 @@
-// Variables used by Scriptable.
-// These must be at the very top of the file. Do not edit.
-// icon-color: blue; icon-glyph: clock;
 
 /**
- * Version: v0.1.0
+ * Version: v0.1.1
  * Script created by: @titaliu1224
  * Github: https://github.com/titaliu1224/Scriptable-weekly-schedule
  * If there's any bug, feel free to tell me.
@@ -66,7 +63,7 @@ function lateThen(time1, time2){
     if(parseInt(time1[0]) < parseInt(time2[0])){
         return false;
     }
-    if(parseInt(time1[1]) < parseInt(time2[1])){
+    if(parseInt(time1[0]) == parseInt(time2[0]) &&  parseInt(time1[1]) < parseInt(time2[1])){
         return false;
     }
     return true;
@@ -90,7 +87,6 @@ function buildWidget(eventName, eventDescribe, eventTime){
         widgetEventTime = widget.addText(eventTime);
         widgetEventTime.font = Font.regularSystemFont(12);
     }
-
 }
 
 let scheduleData = openJson();
