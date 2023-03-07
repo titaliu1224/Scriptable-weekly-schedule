@@ -1,13 +1,13 @@
 # Scriptable Weekly Schedule
 
-在鎖定畫面顯示每週固定的行程（如課表、週會等）
+在鎖定畫面顯示每週固定的行程（如課表、週會等）<br>
 Show the event reapting every week (e.g. class schedule, weekly meeting, etc.).
 
 <p align="center" >
     <img alt="widget screenshot" src ="screenshot.jpg" width = "750">
 </p>
 
-> [English](#English-Manual)
+> [English](#English-Manual) <br>
 > [中文](#中文說明)
 
 ## English Manual
@@ -33,7 +33,44 @@ Show the event reapting every week (e.g. class schedule, weekly meeting, etc.).
     - `describe`: Event note (e.g. classroom, meeting room, reminders, etc.).
     - `remind time`: Reminder start time, if the current time is later than the reminder time, the reminder will be displayed.
     - `end time`: Reminder end time, the reminder will end after the "end time", "end time" also display in the widget.
-  - If there is no event, 
+  - If there are no events to notify, leave the `[]` blank.
+  - For example:
+  ```json
+    {
+   "Sunday": [
+       
+   ],
+   "Monday": [
+       {
+           "name": "數學邏輯思維",
+           "describe": "R2603",
+           "remind time": "09:30",
+           "start time": "10:10",
+           "end time": "12:00"
+       },
+       {
+           "name": "演算法概論",
+           "describe": "R1401B, 帶平板",
+           "remind time": "22:00",
+           "start time": "22:10",
+           "end time": "23:00"
+       }
+   ]
+ }
+  ```
+5. On your phone, go to the custom lock screen and click on the widget bar. Look for Scriptable in the list of available widgets and add the medium-sized (rectangle) widget.
+6. Click on the widget and select the Schedule script. In the `Parameter` field, enter the filename of the JSON file you just created.
+<img alt="setting example" src="screenshot1.jpg" width="500">
+7. The widget should display properly. If you want to display widgets for two different schedules, follow the same steps to create another JSON file.
+
+### Customization
+
+You can set the default file name for the json file by entering Schedule.js and looking for the following variable at the top:
+- `scheduleFile` : the default JSON file name. If the widget does not receive the correct parameter, this variable will be used to read the JSON file.
+
+You can also modify variables in the code to decide whether to display event notes and times. Go to Schedule.js and find the following two variables at the top.
+- `showDescription` : Set to `true` to display the "describe" content in the JSON file. Default value is `true`.
+- `showEventTime` : If set to `true`, it will display the `start time` and `end time`. Default value is `true`.
 
 ## 中文說明
 
@@ -86,16 +123,16 @@ Show the event reapting every week (e.g. class schedule, weekly meeting, etc.).
       }
       ```
 5. 在手機上進入自訂鎖定畫面，點擊小工具欄，在加入小工具中找到 Scriptable ，加入中型（長方形）小工具
-6. 點擊該小工具，選擇 `Schedule` 的 Script 並在 Parameter 中輸入剛剛 json 的檔名
+6. 點擊該小工具，選擇 `Schedule` 的 Script 並在 `Parameter` 中輸入剛剛 JSON 的檔名
 <img alt="setting example" src="screenshot1.jpg" width="500">
-7. 小工具將正常顯示，如需顯示兩個不同行程之小工具，依照上面的步驟建立另一個 json 檔即可
+7. 小工具將正常顯示，如需顯示兩個不同行程之小工具，依照上面的步驟建立另一個 JSON 檔即可
 
 ### Customization
 
-可以設定預設 json 檔的檔名，進入 Schedule.js 後在上方尋找以下變數： 
+可以設定預設 JSON 檔的檔名，進入 Schedule.js 後在上方尋找以下變數： 
 - `scheduleFile` : 預設 json 檔名，若小工具沒有傳入正確參數，將採用此變數的值作為讀取的 json 檔
 
 也可以透過更改程式中的變數來決定是否要顯示活動註解與時間，進入 Schedule.js 後在上方尋找以下兩個變數：
-- `showDescription` : 設為 `true` 會顯示 json 中 `describe` 的內容，預設為 `true`
-- `showEventTime` : 設為 `true` 會顯示 json 中 `start time` ~ `end time` 的內容，預設為 `true`
+- `showDescription` : 設為 `true` 會顯示 JSON 中 `describe` 的內容，預設為 `true`
+- `showEventTime` : 設為 `true` 會顯示 JSON 中 `start time` ~ `end time` 的內容，預設為 `true`
 
