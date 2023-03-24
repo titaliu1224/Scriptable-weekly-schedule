@@ -19,7 +19,7 @@ Show the event reapting every week (e.g. class schedule, weekly meeting, etc.).
 3. Create a JSON file. I recommand 2 methods:
   - Create JSON with computer and iCloud
     1. Download and setup iCloud in your PC.
-    2. Download `schedule_file.json` in your PC, Or create a JSON file by yourself, also copy and paste the script in `schedule.json`.
+    2. Download `schedule_file.json` in your PC, Or create a JSON file by yourself, also copy and paste the script in `schedule_file.json`.
     3. After filling in the JSON file, move the file to iCloud > Scriptable directory.
   - Create JSON with iPhone
     1. Download a app that can edit JOSN file.
@@ -81,7 +81,7 @@ You can also modify variables in the code to decide whether to display event not
 3. 建立 Json 檔，這裡提供兩種方法
   - 使用電腦與 iCloud 建立
     1. 電腦中先下載並設定好 iCloud
-    2. 在電腦中下載 `schedule_file.json`，或是自己建立一個 JSON 檔，並複製 `schedule.json` 中的程式碼
+    2. 在電腦中下載 `schedule_file.json`，或是自己建立一個 JSON 檔，並複製 `schedule_file.json` 中的程式碼
     3. 填寫要修改的內容後放至自己的 iCloud > Scriptable 資料夾中
   - 使用 iPhone 建立
     1. 下載可供編輯 JSON 檔案的程式
