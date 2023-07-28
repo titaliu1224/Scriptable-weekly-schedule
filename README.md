@@ -42,15 +42,15 @@ Show the event reapting every week (e.g. class schedule, weekly meeting, etc.).
    ],
    "Monday": [
        {
-           "name": "數學邏輯思維",
+           "name": "Math & Logic",
            "describe": "R2603",
            "remind time": "09:30",
            "start time": "10:10",
            "end time": "12:00"
        },
        {
-           "name": "演算法概論",
-           "describe": "R1401B, 帶平板",
+           "name": "Intro. of Algorithm",
+           "describe": "R1401B, bring iPad",
            "remind time": "22:00",
            "start time": "22:10",
            "end time": "23:00"
